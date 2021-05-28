@@ -4,25 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut" href="">
     <title>Cosmos Trading</title>
 </head>
 <body>
-    <a href="settings.html"><img src="settings.png"></img></a>
-    <h1 id="name">Hello (name)</h1>
+    <h1 class="name">Hello (name)</h1>
     <div class="previews">
-        <p>Previews</p>
-        <a>edit</a>
-        <div>
-            <p class="stock-preview">Stock name 1</p>
-            <p class="stock-preview">Stock name 2</p>
-            <p class="stock-preview">Stock name 3</p>
+        <div class="previews-head">
+            <a href="preview.html" class="Previews-link">Previews</a>
+            <a class="edit" href="index.html">edit</a>
+        </div>
+        <div class="stock-preview">
+            <a href="preview.html" class="stock-preview1">Stock name 1</a>
+            <a href="preview.html" class="stock-preview2">Stock name 2</a>
+            <a href="preview.html" class="stock-preview3">Stock name 3</a>
         </div>
     </div>
-    <div class="leaderboard">
-        <p></p>
+    <a href="leaderboard.html" class="leaderTxt">Leaderboard</a>
+    <div class="leaderBoard">
+        <div class="leader1">
+            <a href="leaderboard.html" class="rank">1</a>
+            <a href="leaderboard.html" class="person">Person 1</a>
+            <a href="leaderboard.html" class="percent">+200%</a>
+        </div>
+        <div class="leader2">
+            <a href="leaderboard.html" class="rank">2</a>
+            <a href="leaderboard.html" class="person">Person 2</a>
+            <a href="leaderboard.html" class="percent">+100%</a>
+        </div>
+        <div class="leader3">
+            <a href="leaderboard.html" class="rank" id="rank3">3</a>
+            <a href="leaderboard.html" class="person" id="person3">You</a>
+            <a href="leaderboard.html" class="percent">-50%</a>
+        </div>
     </div>
     <div class="Top-Stories">
-        
+        <h1>Apple News</h1>
+        <p>Fake headline 1</p>
+        <h1>Bloomberg</h1>
+        <p>Fake headline 2</p>
+        <h1>WSJ</h1>
+        <p>Fake headline 3</p>
     </div>
 </body>
+<script src="script.js"></script>
 </html>
