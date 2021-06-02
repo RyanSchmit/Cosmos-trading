@@ -55,7 +55,8 @@ body {
     width: 70%;
     height: 200px;
     margin-left: 150pt;
-    margin-top: 20pt;
+    margin-top: 5pt;
+    margin-bottom: 30pt;
 }
 
 .leader1, .leader2, .leader3 {
@@ -78,9 +79,38 @@ body {
     margin-right: 40px;
 }
 
-.leaderTxt {
+.leaderTxt, .storiesTxt {
     margin-left: 165pt;
     font-size: 15pt;
     text-decoration: none;
+}
+
+.Top-Stories {
+    background-color: white;
+    border-radius: 25px;
+    width: 70%;
+    height: 250px;
+    margin-left: 150pt;
+    margin-top: 5pt;
+    margin-bottom: 30pt;
+}
+
+.story1, .story2, .story3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.source {
+    text-decoration: none;
+    font-size: 30pt;
+    margin-bottom: 20pt;
+    margin-top: 10pt;
+}
+
+.headline {
+    text-decoration: none;
+    font-size: 20pt;
+    margin-bottom: 20pt;
+    margin-top: 10pt;
 }
 
