@@ -1,1 +1,35 @@
+body {
+  background-color: green;
+}
 
+/* navigation bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  padding-top: 10pt;
+  display: flex;
+}
+
+.homeImg {
+    width: 20%;
+    margin-left: 80pt;
+}
+
+li a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(0, 148, 0);
+  color: white;
+}
+
+.links {
+    margin-right: 80pt;
+}
